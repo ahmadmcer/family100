@@ -1,0 +1,83 @@
+﻿{
+  "Nama karakter utama di Kaiju No. 8": [
+    ["Kafka Hibino", 35],
+    ["Mina Ashiro", 25],
+    ["Reno Ichikawa", 20],
+    ["Kikoru Shinomiya", 15],
+    ["Isao Shinomiya", 5]
+  ],
+  "Alasan Kafka Hibino bisa berubah menjadi Kaiju No. 8": [
+    ["Parasit masuk ke tubuhnya", 50],
+    ["Kecelakaan laboratorium", 20],
+    ["Eksperimen militer", 15],
+    ["Kutukan kuno", 10],
+    ["Gagal ujian pertahanan", 5]
+  ],
+  "Senjata yang digunakan oleh anggota Defense Force": [
+    ["Senjata dari sisa Kaiju", 40],
+    ["Pakaian tempur bertenaga", 30],
+    ["Senjata api", 20],
+    ["Pisau besar", 10]
+  ],
+  "Tujuan utama Kafka Hibino bergabung dengan Defense Force": [
+    ["Melindungi orang lain", 40],
+    ["Bertarung bersama Mina", 30],
+    ["Mengalahkan Kaiju", 20],
+    ["Balas dendam", 10]
+  ],
+  "Tipe Kaiju yang sering muncul dalam cerita": [
+    ["Honju", 35],
+    ["Yōju", 25],
+    ["Daikaiju", 20],
+    ["Wyvern Kaiju", 15],
+    ["Humanoid Kaiju", 5]
+  ],
+  "Nama kelompok pertahanan dalam cerita": [
+    ["Anti-Kaiju Defense Force", 50],
+    ["Kaiju Disposal Crew", 20],
+    ["Japanese Defense Force", 15],
+    ["Kaiju Combat Unit", 10],
+    ["Kaiju Elimination Squad", 5]
+  ],
+  "Kekuatan yang dimiliki Kafka Hibino sebagai Kaiju No. 8": [
+    ["Kekuatan super", 40],
+    ["Regenerasi", 25],
+    ["Deteksi kaiju", 15],
+    ["Kecepatan super", 10],
+    ["Ketahanan tinggi", 10]
+  ],
+  "Karakter yang mendukung Kafka dalam ceritanya": [
+    ["Reno Ichikawa", 35],
+    ["Kikoru Shinomiya", 25],
+    ["Mina Ashiro", 20],
+    ["Soshiro Hoshina", 15],
+    ["Isao Shinomiya", 5]
+  ],
+  "Jenis misi yang dilakukan oleh Defense Force": [
+    ["Menghancurkan Kaiju", 50],
+    ["Melindungi warga", 20],
+    ["Penelitian Kaiju", 15],
+    ["Pembersihan area", 10],
+    ["Pencarian dan penyelamatan", 5]
+  ],
+  "Alasan kaiju dianggap berbahaya dalam cerita": [
+    ["Menghancurkan kota", 40],
+    ["Membunuh warga", 30],
+    ["Mengancam keselamatan nasional", 20],
+    ["Membuat kekacauan", 10]
+  ],
+  "Posisi Mina Ashiro dalam Defense Force": [
+    ["Kapten Divisi Ketiga", 50],
+    ["Komandan Tertinggi", 20],
+    ["Wakil Kapten", 15],
+    ["Operator", 10],
+    ["Rekrutan Baru", 5]
+  ],
+  "Jenis kekuatan yang diberikan oleh senjata 'Numbers'": [
+    ["Kekuatan super", 35],
+    ["Kecepatan tinggi", 25],
+    ["Kemampuan khusus", 20],
+    ["Peningkatan ketahanan", 15],
+    ["Kemampuan regenerasi", 5]
+  ]
+}
