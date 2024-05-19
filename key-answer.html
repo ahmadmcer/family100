@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Key Answer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <main class="py-10">
+    <div class="container mx-auto max-w-4xl">
+      <form class="flex flex-row items-center justify-center gap-4 mb-4">
+        <input id="question-search" type="text" name="question" placeholder="Search question" class="px-3 py-2 border border-gray-300 rounded-md w-full">
+      </form>
+      <div id="question-list"></div>
+    </div>
+  </main>
+
+  <script>
+    let data = {};
+
+    fetch('json/animanga.json')
+      .then(response => response.json())
+      .then(json => {
+        data = json;
+        fetchData();
+      });
+
+    function fetchData() {
+      const search = document.getElementById('question-search').value.toLowerCase();
+      const questionList = document.getElementById('question-list');
+      questionList.innerHTML = '';
+
+      Object.keys(data).forEach(key => {
+        const question = key.toLowerCase();
+        if (question.includes(search)) {
+          const questionElement = document.createElement('div');
+          questionElement.classList.add('p-4', 'border', 'border-gray-300', 'rounded-md', 'mb-4');
+          
+          const answerElement = document.createElement('div');
+          answerElement.classList.add('grid', 'grid-rows-10', 'grid-flow-col', 'gap-2', 'md:grid-rows-5');
+
+          data[key].forEach((answer, index) => {
+            answerElement.innerHTML += `
+              <div class="flex flex-row justify-between items-center p-2 border border-gray-300 rounded-md">
+                <span class="text-lg font-semibold">${index + 1}</span>
+                <span>${answer[0]}</span>
+              </div>
+            `;
+          });
+
+          questionElement.innerHTML = `
+            <h3 class="text-lg text-center font-semibold mb-4">${key}</h3>
+            ${answerElement.outerHTML}
+          `;
+          questionList.appendChild(questionElement);
+        }
+      });
+    }
+
+    document.getElementById('question-search').addEventListener('input', event => {
+      event.preventDefault();
+      fetchData();
+    });
+  </script>
+</body>
+</html>
